@@ -1,0 +1,134 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Pet World Portal</title>
+    <link rel="stylesheet" href="{% static 'css/Service.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+      <div class="logo" style="margin-top:-45px;">
+        <img src="{% static 'img/logo.png'%}" width="210px" height="220px">
+      </div>
+      <div class="nav" style="margin-top:-40px;">
+       <nav>
+        <ul>
+         <li class="nav1" style="margin-left:20px;margin-right:20px;"> <a href="../">Home</a></li> 
+        <div class="dropdown">  
+          <button class="drop">About <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </button>
+        <div class="dropdown-content">
+          <a href="../admn">Admin</a> 
+          <a href="../customer">Customer</a>  
+          <a href="../handler">Handler</a>   
+          <a href="../helper">Helper</a>  
+          <a href="../trainer">Trainer</a>
+        </div>  
+        </div>
+         <li class="nav1"> <a href="../service">Service</a></li>
+         <li class="nav1"> <a href="../gallery">Gallery</a></li>
+         <li class="nav1"> <a href="../contact">Contact</a></li>
+        </ul>
+       </nav></div>
+      <div class="login" style="margin-top: -40px;">
+         <button class="b1" style="margin-left:180px;"><a href="../login">Login</a></button>
+      </div>
+    </div><br><br>
+    <div class="pagename">
+    <h1 style="padding-top: 20px;">SERVICES</h1>
+    </div>
+    <main>
+      <section id="home" class="hero">
+          <div class="hero-text">
+              <h1>Welcome to Sunshine Pet World Portal</h1>
+              <h4>Your one-stop solution for all pet-related needs.</h4>
+          </div>
+      </section>
+      <section id="adoption" class="service-section">
+          <h2>Pet Adoption Services</h2>
+          <div class="service-cards">
+              <div class="card">
+                  <img src="{% static 'img/pet adoption.jpg'%}" alt="Pet Adoption">
+                  <div class="card-content">
+                      <h3>Find Your Perfect Pet</h3>
+                      <p>Browse our extensive list of adoptable animals and find your new best friend.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="veterinary" class="service-section">
+          <h2>Veterinary Services</h2>
+          <div class="service-cards">
+              <div class="card">
+                  <img src="{% static 'img/veterinary services.jpg'%}" alt="Veterinary Services">
+                  <div class="card-content">
+                      <h3>Locate the Best Vets</h3>
+                      <p>Find top-rated veterinarians and animal clinics in your area.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="grooming" class="service-section">
+          <h2>Grooming & Boarding</h2>
+          <div class="service-cards">
+              <div class="card">
+                  <img src="{% static 'img/groomingservices.jpeg'%}" alt="Grooming and Boarding">
+                  <div class="card-content">
+                      <h3>Top Grooming Services</h3>
+                      <p>Discover top-rated grooming services and boarding facilities for your pet.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="training" class="service-section">
+          <h2>Pet Training</h2>
+          <div class="service-cards">
+              <div class="card">
+                  <img src="{% static 'img/training service.jpg'%}" alt="Pet Training">
+                  <div class="card-content">
+                      <h3>Connect with Trainers</h3>
+                      <p>Get in touch with professional pet trainers and behaviorists.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="community" class="service-section">
+          <h2>Pet Community</h2>
+          <div class="service-cards">
+              <div class="card">
+                  <img src="{% static 'img/community service.jpg'%}" alt="Pet Community">
+                  <div class="card-content">
+                      <h3>Join Our Community</h3>
+                      <p>Connect with other pet owners, share experiences, and get advice.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </main>
+      <div class="footer" style="display: flex;">
+        <div class="footer-content1">
+          <img src="{% static 'img/logo.png'%}" width="350">
+        </div>
+        <div class="footer-content2">
+          <h2>MENU</h2>
+          <nav class="navigation" style="margin-left: 15px;">
+           <a href="../">Home</a>
+            About
+           <a href="../service">Service</a>
+           <a href="../gallery">Gallery</a>
+           <a href="../contact">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-content3">
+          <h2 class="hh2">Subscribe <i class="fa-regular fa-bell"></i></h2>
+          <input type="text" style="border-radius: 4px;"><br><br>
+          <button class=b2 type="submit">submit</button>
+        </div>
+      </div>
+</body>
+</html>

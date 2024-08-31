@@ -1,0 +1,52 @@
+table,th,td{
+  border: 1px solid black;
+  }
+footer{
+    background-color:rgb(162,214,246);
+  }
+  .socialIcons{
+  display: flex;
+  justify-content: center;
+  padding-left:1%;
+  padding-top: 20px;
+  }
+  .socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;
+    margin:10px;
+    border-radius: 50%;
+    border:2px solid blue;
+  }
+  .socialIcons a i{
+    font-size: 2em;
+    opacity: 0.9;
+    color:blue;
+  }
+  /* Hover Effect on social media Icons */
+  .socialIcons a:hover{
+    background-color:rgb(100, 191, 247);
+    transition: 0.5s;
+    
+  }
+  .footerBottom{
+    padding: 20px;
+    text-align: center;
+  }
+  .footerBottom p{
+    color:white;
+    font-size: large;
+  }
+  .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    margin: 0px 5px;
+  }
+  @media (max-width:700px){
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+  }

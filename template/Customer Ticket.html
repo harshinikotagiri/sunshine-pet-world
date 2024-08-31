@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine pet world Portal</title>
+    <link rel="stylesheet" href="{% static 'css/Customer Ticket.css'%}">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background:linear-gradient(to right,#3498db,#2c3e50);">
+       <img src="{% static 'img/logo.png'%}" width="250px" style="padding-left:50px;margin-top: -30px;margin-bottom:-80px;">
+       <a href="../chome" class="btn btn-primary "  style="float:right; margin:30px 150px;background-color:#1a7cbe;color: black;">
+        Home
+      </a>
+    </nav>
+  </header>
+  <main style="background-image: url(../../static/img/white-paper-texture-background.avif);background-repeat: no-repeat;background-position: center;background-size: cover;margin-top: -20px;">
+      <br><br><div class="container">
+        <div class="form-header">
+            <h2>Ticket</h2>
+        </div>
+        <form action="../cticket/" method="POST">
+          {% csrf_token %}
+          <h4 style="color:rgb(9,107,50);margin-left: 10px;">{{Message}}</h4>
+          <div class="form-group">
+            <label for="name">Username</label>
+            <input type="email" id="name" name="Username" placeholder="Enter Username" required>
+        </div>
+            <div class="form-group">
+                <label for="name">HHT Name</label>
+                <input type="text" id="name" name="Name" placeholder="Enter HHTname" required>
+            </div>
+            <div class="form-group">
+              <label for="type">HHT Type</label>
+              <input type="text" id="type" name="Type" placeholder="" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="Subject" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="Reason">Reason</label>
+          <input type="text" id="reason" name="Reason" placeholder="" required>
+      </div>
+      <div class="form-group">
+        <label for="Reply">Reply</label>
+        <input type="text" id="reply" name="Reply" placeholder="" required>
+    </div>
+        <div class="form-footer">
+                <button type="submit">Raise</button>
+            </div>
+            </form>
+    </div><br><br>
+  </main>
+<footer>
+        <div class="footer">
+          <div class="socialIcons">
+      <a href=""><i class=" fa-brands fa-facebook"></i></a>
+      <a href=""><i class=" fa-brands fa-instagram"></i></a>
+      <a href=""><i class=" fa-brands fa-whatsapp"></i></a>
+      <a href=""><i class=" fa-brands fa-twitter"></i></a>
+      <a href=""><i class=" fa-brands fa-google-plus"></i></a>
+      <a href=""><i class=" fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerBottom">
+          <p>@copyright &copy;2024 Designed by <span class="desingner">Harshini</span></p>
+          </div>
+        </div>
+        </footer>
+</body>
+</html>

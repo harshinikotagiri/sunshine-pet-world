@@ -1,0 +1,210 @@
+.button2{
+    text-align: center;
+    transition: transform 0.3s;
+}
+.button2 a{
+    color: black;
+}
+.button2 a:hover{
+   color: black;
+   text-decoration: none;
+}
+.b1:hover{
+    transform: scale(1.1);
+    background-color: blueviolet;
+    border-color:black;
+}
+.b1{
+     border: 3px solid blueviolet;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+.b2:hover{
+    transform: scale(1.1);
+    background-color:olivedrab;
+    border-color:black;
+}
+.b2{
+     border: 3px solid olivedrab;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+.b3:hover{
+    transform: scale(1.1);
+    background-color:brown;
+    border-color:black;
+}
+.b3{
+     border: 3px solid brown;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+.b4:hover{
+    transform: scale(1.1);
+    background-color:goldenrod;
+    border-color:black;
+}
+.b4{
+     border: 3px solid goldenrod;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+.b5:hover{
+    transform: scale(1.1);
+    background-color: magenta;
+    border-color:black;
+}
+.b5{
+     border: 3px solid magenta;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+.b6:hover{
+    transform: scale(1.1);
+    background-color:red;
+    border-color:black;
+}
+.b6{
+     border: 3px solid red;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+.b7:hover{
+    transform: scale(1.1);
+    background-color: dodgerblue;
+    border-color:black;
+}
+.b7{
+     border: 3px solid dodgerblue;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+.b8:hover{
+    transform: scale(1.1);
+    background-color:yellowgreen;
+    border-color:black;
+}
+.b8{
+     border: 3px solid yellowgreen;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+.b9:hover{
+    transform: scale(1.1);
+    background-color:purple;
+    border-color:black;
+}
+.b9{
+     border: 3px solid purple;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+.b10:hover{
+    transform: scale(1.1);
+    background-color: orangered;
+    border-color:black;
+}
+.b10{
+     border: 3px solid orangered;
+     border-radius:10px;
+     height:100px;
+     width:250px;
+     font-size:xx-large;
+     color:black;
+     font-family:cursive;
+     margin:20px;
+}
+footer{
+    background-color:rgb(162, 214, 246);
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+  padding-left:1%;
+  padding-top: 20px;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;
+    margin:10px;
+    border-radius: 50%;
+    border:2px solid blue;
+}
+.socialIcons a i{
+    font-size: 2em;
+    opacity: 0.9;
+    color:blue;
+}
+/* Hover Effect on social media Icons */
+.socialIcons a:hover{
+    background-color:rgb(100, 191, 247);
+    transition: 0.5s;
+    
+}
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color:white;
+    font-size: large;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    margin: 0px 5px;
+}
+@media (max-width:700px){
+  .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}

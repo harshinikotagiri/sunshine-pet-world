@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Pet World Portal</title>
+    <link rel="stylesheet" href="{% static 'css/Contact.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+      <div class="logo" style="margin-top: -45px;">
+        <img src="{% static 'img/logo.png'%}" width="210px" height="220px">
+      </div>
+      <div class="nav" style="margin-top: -40px;">
+       <nav>
+        <ul>
+         <li class="nav1"  style="margin-left:20px;margin-right:20px;"> <a href="../">Home</a></li> 
+        <div class="dropdown">  
+          <button class="drop">About <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </button>
+        <div class="dropdown-content">
+          <a href="../admn">Admin</a> 
+          <a href="../customer">Customer</a>  
+          <a href="../handler">Handler</a>   
+          <a href="../helper">Helper</a>  
+          <a href="../trainer">Trainer</a>
+        </div>  
+        </div>
+         <li class="nav1"> <a href="../service">Service</a></li>
+         <li class="nav1"> <a href="../gallery">Gallery</a></li>
+         <li class="nav1"> <a href="../contact">Contact</a></li>
+        </ul>
+       </nav></div>
+      <div class="login"  style="margin-top: -40px;">
+         <button class="b1"  style="margin-left:180px;"><a href="../login">Login</a></button>
+      </div>
+    </div><br><br>
+    <div class="pagename">
+     <h1 style="padding-top: 20px;">CONTACT</h1>
+    </div>
+    <div class="contact">
+      <div class="form">
+        <form action="../contact/" method="POST">
+          {% csrf_token %}
+          <h3 style="color:white; margin-left: 10px;">{{Message}}</h3>
+        <label for="name">Name</label><br>
+        <input type="text" name="Name"><br><br>
+        <label for="Email">Email</label><br>
+        <input type="email" name="Email"><br><br>
+        <label for="Text" >Text</label><br>
+        <textarea placeholder="text" name="Text"></textarea><br><br>
+        <button class="submit" type="submit">Submit</button>
+      </form></div>
+      <div class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.4139283112727!2d78.52922267521042!3d17.391912083496063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99001aef96e5%3A0xb6655dc2ec7e2ba8!2sKlee%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1717842161075!5m2!1sen!2sin" width="600" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+   <div class="footer" style="display: flex;">
+       <div class="footer-content1">
+          <img src="{% static 'img/logo.png'%}" width="350">
+        </div>
+        <div class="footer-content2">
+         <h2>MENU</h2>
+          <nav class="navigation" style="margin-left: 15px;">
+           <a href="../">Home</a>
+            About
+           <a href="../service">Service</a>
+           <a href="../gallery">Gallery</a>
+           <a href="../contact">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-content3">
+          <h2 class="hh2">Subscribe <i class="fa-regular fa-bell"></i></h2>
+          <input type="text" style="border-radius: 4px;"><br><br>
+          <button class=b2 type="submit">submit</button>
+        </div>
+      </div>
+</body>
+</html>

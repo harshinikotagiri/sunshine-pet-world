@@ -1,0 +1,79 @@
+.container-1{
+  display:flex;
+  border:3px solid transparent;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-left:10%;
+  margin-right:10%;
+  background-color:rgb(225,241,247);
+}
+.book{
+  background-color: #3498db;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  font-size:medium;
+  margin-left:50%;
+}
+.book:hover{
+  background-color:#0f4a85;
+  color: aliceblue;
+}
+form{
+  color:#2c3e50;
+  font-size: medium;
+  padding:20px 40px;
+}
+label{
+  padding:6px;
+}
+footer{
+  background:linear-gradient(to right,#3498db,#2c3e50);
+}
+.socialIcons{
+display: flex;
+justify-content: center;
+padding-left:1%;
+padding-top: 20px;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color:white;
+  margin:10px;
+  border-radius: 50%;
+  border:2px solid blue;
+}
+.socialIcons a i{
+  font-size: 2em;
+  opacity: 0.9;
+  color:blue;
+}
+/* Hover Effect on social media Icons */
+.socialIcons a:hover{
+  background-color:#1a7cbe;
+  transition: 0.5s;
+  
+}
+.footerBottom{
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color:white;
+  font-size: large;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400px;
+  margin: 0px 5px;
+}
+@media (max-width:700px){
+  .socialIcons a{
+      padding: 8px;
+      margin: 4px;
+  }
+}

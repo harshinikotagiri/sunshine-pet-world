@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Pet World Portal</title>
+    <link rel="stylesheet" href="{% static 'css/Customer Pet List.css'%}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background:linear-gradient(to right,#3498db,#2c3e50);">
+      <img src="{% static 'img/logo.png'%}" width="250px" style="padding-left:50px;margin-top: -30px;margin-bottom:-80px;">
+      <a href="../chome" class="btn btn-primary "  style="float:right; margin:30px 150px;background-color:#1a7cbe;color: black;">
+        Home
+      </a>
+   </nav>
+  </header>
+<main style="border: 2px solid #3498db;margin-left: 10%;margin-right: 10%;">
+  <select name="pet-select" id="pet-select" style="width:15%;margin-left:78%;margin-top: 10px;margin-bottom: 10px;">
+  <option value="">--choose an option--</option>
+  <option value="dog">Dog</option>
+  <option value="cat">Cat</option>
+</select>
+<label for="pet-search">Search</label>
+<div class="container-1">
+    <div class="image">
+      <img src="https://img.freepik.com/premium-photo/highresolution-photo-golden-retriever-isolated-white-background_1115474-37536.jpg?w=740" width="250" height="250" style="margin-top: 30px;margin-left:80px;">
+    </div>
+    <div class="form">
+    <form>
+        <label for="name" style="margin-right:10px;"> Pet Name :</label><span>Syraa</span><br><br>
+        <label for="role" style="margin-right:16px;"> Pet Type :</label><span>Dog</span><br><br>
+        <label for="breed"style="margin-right:7px;">Pet Breed :</label><span>Golden Retriever</span><br><br>
+        <label for="color"style="margin-right:10px;">Pet Color :</label><span>Gold</span><br><br>
+        <label for="age" style="margin-right:22px;">Pet Age :</label><span>2 years</span><br><br>
+        <label for="gender">Pet Gender:</label><span>Male</span>
+        <button class="know" type="button"><a href="../cpetlist1">Know More</a></button>
+    </form>
+  </div>
+</div><br>
+<div class="container-1">
+  <div class="image">
+    <img src="https://img.freepik.com/free-photo/view-adorable-kitten_23-2150758222.jpg?t=st=1722584862~exp=1722588462~hmac=ff7b84afd257282a95a43d646f768a5d823b1af595e811dd73730e4e8b56e2bc&w=1380"   width="250" height="250" style="margin-top: 30px;margin-left:80px;">
+  </div>
+  <div class="form">
+    <form>
+      <label for="name" style="margin-right:10px;"> Pet Name :</label><span>Bell</span><br><br>
+      <label for="role" style="margin-right:16px;"> Pet Type :</label><span>Cat</span><br><br>
+      <label for="breed"style="margin-right:7px;">Pet Breed :</label><span>Persian Cat</span><br><br>
+      <label for="color"style="margin-right:10px;">Pet Color :</label><span>White</span><br><br>
+      <label for="age" style="margin-right:22px;">Pet Age :</label><span>1 year</span><br><br>
+      <label for="gender">Pet Gender:</label><span>Female</span>
+      <button class="know" type="button" style="margin-right:-15px;"><a href="../cpetlist1">Know More</a></button>
+  </form>
+</div>
+</div><br>
+<div class="container-1">
+  <div class="image">
+    <img src="https://img.freepik.com/premium-photo/delicious-pomeranian-isolated-white-background_43379-3339.jpg?w=740" width="250" height="250" style="margin-top: 30px;margin-left:80px;">
+  </div>
+  <div class="form">
+    <form>
+      <label for="name" style="margin-right:10px;"> Pet Name :</label><span>Chocky</span><br><br>
+      <label for="role" style="margin-right:16px;"> Pet Type :</label><span>Dog</span><br><br>
+      <label for="breed"style="margin-right:7px;">Pet Breed :</label><span>Pomeranian</span><br><br>
+      <label for="color"style="margin-right:10px;">Pet Color :</label><span>Chocolate</span><br><br>
+      <label for="age" style="margin-right:22px;">Pet Age :</label><span>1.5 years</span><br><br>
+      <label for="gender">Pet Gender:</label><span>Male</span>
+      <button class="know" type="button" style="margin-right: 5px;"><a href="../cpetlist1">Know More</a></button>
+  </form>
+</div>
+</div><br>
+<div class="container-1">
+  <div class="image">
+    <img src="https://img.freepik.com/free-photo/red-white-cat-white-studio-background_155003-22078.jpg?t=st=1722585030~exp=1722588630~hmac=9a227c095d6278a594f5569aff9af8195cb482209857fb867695c1b784a941cb&w=1060" width="250" height="250" style="margin-top: 30px;margin-left:80px;">
+  </div>
+  <div class="form">
+    <form>
+      <label for="name" style="margin-right:10px;"> Pet Name :</label><span>Tom</span><br><br>
+      <label for="role" style="margin-right:16px;"> Pet Type :</label><span>Cat</span><br><br>
+      <label for="breed"style="margin-right:7px;">Pet Breed :</label><span>American curl</span><br><br>
+      <label for="color"style="margin-right:10px;">Pet Color :</label><span>Wheat</span><br><br>
+      <label for="age" style="margin-right:22px;">Pet Age :</label><span>1.2 year</span><br><br>
+      <label for="gender">Pet Gender:</label><span>Male</span>
+      <button class="know" type="button" style="margin-right: 5px;"><a href="../cpetlist1">Know More</a></button>
+  </form>
+</div>
+</div><br>
+<div class="container-1">
+  <div class="image">
+    <img src="https://img.freepik.com/premium-photo/cute-shih-tzu-sitting-light-grey-background_206320-808.jpg?w=740" width="250" height="250" style="margin-top: 30px;margin-left:80px;">
+  </div>
+  <div class="form">
+    <form>
+      <label for="name" style="margin-right:10px;"> Pet Name :</label><span>Rickey</span><br><br>
+      <label for="role" style="margin-right:16px;"> Pet Type :</label><span>Dog</span><br><br>
+      <label for="breed"style="margin-right:7px;">Pet Breed :</label><span>shih Tzu</span><br><br>
+      <label for="color"style="margin-right:10px;">Pet Color :</label><span>Black and White</span><br><br>
+      <label for="age" style="margin-right:22px;">Pet Age :</label><span>2 years</span><br><br>
+      <label for="gender">Pet Gender:</label><span>Female</span>
+      <button class="know" type="button" style="margin-right: -10px;"><a href="../cpetlist1">Know More</a></button>
+  </form>
+</div>
+</div><br>
+</main><br>
+<footer>
+  <div class="footer">
+    <div class="socialIcons">
+      <a href=""><i class=" fa-brands fa-facebook"></i></a>
+      <a href=""><i class=" fa-brands fa-instagram"></i></a>
+      <a href=""><i class=" fa-brands fa-whatsapp"></i></a>
+      <a href=""><i class=" fa-brands fa-twitter"></i></a>
+      <a href=""><i class=" fa-brands fa-google-plus"></i></a>
+      <a href=""><i class=" fa-brands fa-youtube"></i></a>
+    </div>
+    <div class="footerBottom">
+      <p>@copyright &copy;2024 Designed by <span class="desingner">Harshini</span></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

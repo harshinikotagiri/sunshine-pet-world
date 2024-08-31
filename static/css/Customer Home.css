@@ -1,0 +1,243 @@
+.pagename{
+    text-align:center;
+    background-color: rgb(196,224,223);
+    border:none;
+    margin-top: -20px;
+}
+.button2{
+    text-align: center;
+    transition: transform 0.3s;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.button2 a{
+    color: black;
+}
+.button2 a:hover{
+   color: black;
+   text-decoration: none;
+}
+.b1:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b1{
+     border: 3px solid blueviolet;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b2:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b2{
+     border: 3px solid olivedrab;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b3:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b3{
+     border: 3px solid brown;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b4:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b4{
+     border: 3px solid goldenrod;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b5:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b5{
+     border: 3px solid darkblue;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b6:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b6{
+     border: 3px solid red;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b7:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b7{
+     border: 3px solid dodgerblue;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b8:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b8{
+     border: 3px solid yellowgreen;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b9:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b9{
+     border: 3px solid purple;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b10:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b10{
+     border: 3px solid orangered;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+.b11:hover{
+    transform: scale(1.1);
+    background-color:transparent;
+    border-color:black;
+}
+.b11{
+     border: 3px solid darkgreen;
+     background-color: transparent;
+     border-radius:10px;
+     height:80px;
+     width:150px;
+     font-size:large;
+     color:black;
+     margin:30px;
+     font-weight: bold;
+}
+footer{
+    background:linear-gradient(to right,#3498db,#2c3e50);
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+  padding-left:1%;
+  padding-top: 20px;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;
+    margin:10px;
+    border-radius: 50%;
+    border:2px solid blue;
+}
+.socialIcons a i{
+    font-size: 2em;
+    opacity: 0.9;
+    color:blue;
+}
+/* Hover Effect on social media Icons */
+.socialIcons a:hover{
+    background-color:#1a7cbe;
+    transition: 0.5s;
+}
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color:white;
+    font-size: large;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    margin: 0px 5px;
+}
+@media (max-width:700px){
+  .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}

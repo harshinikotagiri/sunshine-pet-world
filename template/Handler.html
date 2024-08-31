@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Pet World Portal</title>
+    <link rel="stylesheet" href="{% static 'css/Handler.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+      <div class="logo" style="margin-top: -45px;">
+        <img src="{% static 'img/logo.png'%}" width="210px" height="220px">
+      </div>
+      <div class="nav" style="margin-top: -40px;">
+       <nav>
+        <ul>
+         <li class="nav1"  style="margin-left:20px;margin-right:20px;"> <a href="../">Home</a></li> 
+        <div class="dropdown">  
+          <button class="drop">About <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </button>
+        <div class="dropdown-content">
+          <a href="../admn">Admin</a> 
+          <a href="../customer">Customer</a>  
+          <a href="../handler">Handler</a>   
+          <a href="../helper">Helper</a>  
+          <a href="../trainer">Trainer</a>
+        </div>  
+        </div>
+         <li class="nav1"> <a href="../service">Service</a></li>
+         <li class="nav1"> <a href="../gallery">Gallery</a></li>
+         <li class="nav1"> <a href="../contact">Contact</a></li>
+        </ul>
+       </nav></div>
+      <div class="login"  style="margin-top: -40px;">
+         <button class="b1"  style="margin-left:180px;"><a href="../login">Login</a></button>
+      </div>
+    </div>
+    <div class="pagename">
+      <h1 style="padding-top:20px;">HANDLER</h1>
+    </div>
+    <div class="container mt-5" style="background-image: url(https://img.freepik.com/free-photo/close-up-hand-holding-dog-paw_23-2149143868.jpg?t=st=1722283829~exp=1722287429~hmac=2fa6b65eb725ab7e6c590ef098ece7df2c32e54fea9ced32a3a5f5bd49a2a007&w=996); height: 650px; background-size: cover; background-repeat: no-repeat; margin-top: -20px;" >
+      <p class="dropdown-item" style="margin-left:2%;padding:60px;color:black;font-size:large;">
+
+         The Handler Module is a key component of the Sunshine Pet World platform. It is designed to streamline the management and care of pets within the system.
+ <br><br>*Pet Management:*<br>
+         • Allows handlers to add, update, and remove pet profiles, including detailed information such as species, breed, age, health records, and special care instructions.
+ <br><br>*Task Scheduling:*<br>
+         • Enables handlers to schedule and track tasks related to pet care, such as feeding, grooming, medical check-ups, and exercise routines.<br>
+         • It includes automated reminders and notifications to ensure timely completion of tasks.
+ <br><br>*Health Monitoring:*<br>
+         • Provides tools for recording and monitoring the health status of pets.<br>
+         • Handlers can log symptoms, medications, and vet visits, ensuring a comprehensive health history for each pet.
+ <br><br>*Communication Tools:* <br>
+         • Facilitates communication between handlers, pet owners, and veterinary professionals.<br>
+         • It includes messaging features, appointment scheduling, and the ability to share updates and reports.
+ <br><br>*Reports and Analytics:*<br>
+         • Generates detailed reports and analytics on various aspects of pet care, helping handlers to make informed decisions and improve the quality of care.
+ <br><br>*Integration with Other Modules:*<br>
+         • Seamlessly integrates with other modules of the Sunshine Pet World platform, such as the owner module,<br> vet module, and inventory management, ensuring a cohesive and efficient workflow.<br>
+           This module is designed to enhance the efficiency of pet care, ensuring that every pet receives the best possible attention and care from their handlers.</p>
+    </div>   
+   <div class="footer" style="display: flex;">
+       <div class="footer-content1">
+          <img src="{% static 'img/logo.png'%}" width="350">
+        </div>
+        <div class="footer-content2">
+         <h2>MENU</h2>
+          <nav class="navigation" style="margin-left: 15px;">
+           <a href="../">Home</a>
+            About
+           <a href="../service">Service</a>
+           <a href="../gallery">Gallery</a>
+           <a href="../contact">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-content3">
+          <h2 class="hh2">Subscribe <i class="fa-regular fa-bell"></i></h2>
+          <input type="text" style="border-radius: 4px;"><br><br>
+          <button class=b2 type="submit">submit</button>
+        </div>
+      </div>
+</body>
+</html>

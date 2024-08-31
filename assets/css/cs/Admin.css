@@ -1,0 +1,232 @@
+.info{
+  position:absolute;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:10px 20px;
+  background-color:#1a7cbe;
+  border:none;
+  border-radius: 3px;
+  font-size: 15px;
+  color:white;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1;/*ensures the button is above the image*/;
+  font-size:larger;
+  font-family: inherit;
+  margin: 1%;
+  }
+.dropdown-content{
+  display:none;
+  box-shadow: 0px 4px 8px 0px ;
+  background-color:#2c3e50;
+  top:73%;
+  left:0%;
+  text-align: justify;
+  padding:10px 50px;
+  color: white;
+  font-size: 21px;
+}
+.button1{
+  text-align:center;
+  transition: transform 0.3s;
+}
+.button1 a{
+  color: black;
+}
+.button1 a:hover{
+  color: black;
+  text-decoration: none;
+}
+.b1:hover{
+  transform: scale(1.1);
+  background-color:transparent;
+  border-color:black;
+}
+.b1{
+   border: 3px solid blueviolet;
+   background-color: transparent;
+   border-radius:10px;
+   height:80px;
+   width:150px;
+   font-size:large;
+   color:black;
+   font-family:cursive;
+   margin:30px;
+}
+.b2:hover{
+  transform: scale(1.1);
+  background-color:transparent;
+  border-color: black;
+}
+.b2{
+  border: 3px solid darkorange;
+  background-color: transparent;
+  border-radius:10px;
+  height:80px;
+  width:150px;
+  font-size:large;
+  color:black;
+  font-family:cursive;
+  margin:30px;
+}
+.b3:hover{
+  transform: scale(1.1);
+  background-color:transparent;
+  border-color: black;
+}
+.b3{
+  border: 3px solid forestgreen;
+  background-color: transparent;
+  border-radius:10px;
+  height:80px;
+  width:150px;
+  font-size:large;
+  color:black;
+  font-family:cursive;
+  margin:30px;
+}
+.b4:hover{
+  transform: scale(1.1);
+  background-color:transparent;
+  border-color: black;
+}
+.b4{
+  border: 3px solid yellow;
+  background-color: transparent;
+  border-radius:10px;
+  height:80px;
+  width:150px;
+  font-size:large;
+  color:black;
+  font-family:cursive;
+  margin:30px;
+}
+.b5:hover{
+  transform: scale(1.1);
+  background-color:transparent;
+  border-color: black;
+}
+.b5{
+  border: 3px solid fuchsia;
+  background-color: transparent;
+  border-radius:10px;
+  height:80px;
+  width:150px;
+  font-size:large;
+  color:black;
+  font-family:cursive;
+  margin: 30px;
+}
+.b6:hover{
+  transform: scale(1.1);
+  background-color:transparent;
+  border-color: black;
+}
+.b6{
+  border: 3px solid crimson;
+  background-color: transparent;
+  border-radius:10px;
+  height:80px;
+  width:150px;
+  font-size:large;
+  color:black;
+  font-family:cursive;
+  margin: 30px;
+}
+.b7:hover{
+  transform: scale(1.1);
+  background-color:transparent;
+  border-color: black;
+}
+.b7{
+  border: 3px solid sienna;
+  background-color: transparent;
+  border-radius:10px;
+  height:80px;
+  width:150px;
+  font-size:large;
+  color:black;
+  font-family:cursive;
+  margin:30px;
+}
+.b8:hover{
+  transform: scale(1.1);
+  background-color:transparent;
+  border-color: black;
+}
+.b8{
+  border: 3px solid yellowgreen;
+  background-color: transparent;
+  border-radius:10px;
+  height:80px;
+  width:150px;
+  font-size:large;
+  color:black;
+  font-family:cursive;
+  margin:30px;
+}
+.b9:hover{
+  transform: scale(1.1);
+  background-color:transparent;
+  border-color: black;
+}
+.b9{
+  border: 3px solid cornflowerblue;
+  background-color: transparent;
+  border-radius:10px;
+  height:80px;
+  width:150px;
+  font-size:large;
+  color:black;
+  font-family:cursive;
+  margin:30px;
+}
+footer{
+  background-color:rgb(162,214,246);
+}
+.socialIcons{
+display: flex;
+justify-content: center;
+padding-left:1%;
+padding-top: 20px;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color:white;
+  margin:10px;
+  border-radius: 50%;
+  border:2px solid blue;
+}
+.socialIcons a i{
+  font-size: 2em;
+  opacity: 0.9;
+  color:blue;
+}
+/* Hover Effect on social media Icons */
+.socialIcons a:hover{
+  background-color:rgb(100, 191, 247);
+  transition: 0.5s;
+  
+}
+.footerBottom{
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color:white;
+  font-size: large;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400px;
+  margin: 0px 5px;
+}
+@media (max-width:700px){
+  .socialIcons a{
+      padding: 8px;
+      margin: 4px;
+  }
+}
